@@ -1,0 +1,241 @@
+.line-overall, .line-all, .line-suicide-rate {
+    fill: none;
+    stroke: orange;
+    stroke-width: 3;
+}
+
+.line-male {
+    fill: none;
+    stroke: blue;
+    stroke-width: 3;
+}
+
+.line-female {
+    fill: none;
+    stroke: red;
+    stroke-width: 3;
+}
+
+.line-5To14, .line-south-america {
+    fill: none;
+    stroke: rgb(100, 50, 150);
+    stroke-width: 3;
+}
+
+.line-15To24, .line-oceania {
+    fill: none;
+    stroke: rgb(124, 24, 24);
+    stroke-width: 3;
+}
+
+.line-25To34, .line-north-america {
+    fill: none;
+    stroke: rgb(88, 250, 40);
+    stroke-width: 3;
+}
+
+.line-35To54, .line-europe {
+    fill: none;
+    stroke: rgb(226, 6, 109);
+    stroke-width: 3;
+}
+
+.line-55To74, .line-asia, .line-gdp {
+    fill: none;
+    stroke: rgb(68, 13, 255);
+    stroke-width: 3;
+}
+
+.line-75Up, .line-africa {
+    fill: none;
+    stroke: rgb(24, 80, 28);
+    stroke-width: 3;
+}
+
+.overlay {
+    fill: none;
+    pointer-events: all;
+}
+
+/* Style the dots by assigning a fill and stroke */
+
+circle.dot-overall, circle.dot-all, circle.dot-suicide-rate {
+    fill: orange;
+    stroke: white;
+}
+
+circle.dot-male {
+    fill: blue;
+    stroke: white;
+}
+
+circle.dot-female {
+    fill: red;
+    stroke: white;
+}
+
+circle.dot-5To14, circle.dot-south-america {
+    fill: rgb(100, 50, 150);
+    stroke: white;
+}
+
+circle.dot-15To24, circle.dot-oceania {
+    fill: rgb(124, 24, 24);
+    stroke: white;
+}
+
+circle.dot-25To34, circle.dot-north-america {
+    fill: rgb(88, 250, 40);
+    stroke: white;
+}
+
+circle.dot-35To54, circle.dot-europe {
+    fill: rgb(226, 6, 109);
+    stroke: white;
+}
+
+circle.dot-55To74, circle.dot-asia {
+    fill: rgb(68, 13, 255);
+    stroke: white;
+}
+
+circle.dot-75Up, circle.dot-africa {
+    fill: rgb(24, 80, 28);
+    stroke: white;
+}
+
+circle.focus {
+    fill: green;
+    stroke: white;
+}
+
+circle.dot-gdp {
+    fill: none;
+    stroke: rgb(68, 13, 255);
+}
+
+div.tooltip {
+    position: absolute;
+    width: 110px;
+    height: 40px;
+    padding-left: 15px;
+    padding-top: 3px;
+    background: lightsteelblue;
+    border: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+div.tooltipBar {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    padding-left: 15px;
+    padding-top: 3px;
+    background: lightsteelblue;
+    border: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+text.legend, text.legend-right {
+    font-size: 15px;
+}
+
+.bar, .bar-legend {
+    fill: #ffc1c16e;
+}
+
+.bar:hover {
+    fill: #ffc1c1;
+}
+
+svg.center {
+    display: block;
+    margin: auto;
+}
+
+div.center-div, div.center {
+    text-align: center;
+    padding: 10px;
+}
+
+.axisBlue {
+    color: rgb(68, 13, 255);
+}
+
+.axisOrange {
+    color: orange;
+}
+
+button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.select {
+    background-color: DodgerBlue;
+    padding: 4px;
+    font-size: 20px;
+    color: white;
+}
+
+text {
+    font-size: 15px;
+}
+
+button.previous, button.next {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+button:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.next {
+    background-color: #4CAF50;
+    color: white;
+}
+
+circle.annotation {
+    fill: transparent;
+    stroke: red;
+}
+
+line.annotation {
+    stroke: red;
+}
+
+line.annotation-dash {
+    stroke: grey;
+    stroke-dasharray: 5,5;
+}
+
+.insight {
+    /* padding-left: 30px; */
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+.intro {
+    display: block;
+    margin: auto;
+    width: 60%;
+    font-size: 20px;
+}
