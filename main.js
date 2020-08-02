@@ -15,15 +15,15 @@ function titleCase(str) {
 function nextPage() {
     if (pageNum < 8) {
         pageNum += 1;
+        goToPage(pageNum);
     }
-    goToPage(pageNum);
 }
 
 function prevPage() {
     if (pageNum > 1) {
         pageNum -= 1;
+        goToPage(pageNum);
     }
-    goToPage(pageNum);
 }
 
 function goToPage(pageNum) {
@@ -53,8 +53,6 @@ function goToPage(pageNum) {
         case 8:
             conclusionClick();
             break;
-        default:
-            introClick();
     }
 }
 
